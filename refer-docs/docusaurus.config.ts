@@ -78,7 +78,6 @@ const config: Config = {
           position: 'left',
           label: 'Tutorial',
         },
-        {to: '/sdk', label: 'sdk', position: 'left'},
         {
           href: 'https://github.com/potlock/refer-protocol',
           label: 'GitHub',
@@ -115,12 +114,12 @@ const config: Config = {
           title: 'Build',
           items: [
             {
-              label: 'sdk',
-              to: '/sdk',
+              label: 'SDK',
+              href: 'https://api.referprotocol.com',
             },
             {
-              label: 'boilerplate',
-              to: '/boileraplte',
+              label: 'Boilerplate',
+              href: 'https://api.referprotocol.com',
             },
             {
               label: 'API',
