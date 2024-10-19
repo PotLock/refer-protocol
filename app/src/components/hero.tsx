@@ -29,7 +29,7 @@ export function Hero() {
         Build Powerful On-Chain Referrals
       </h1>
       <p className="mb-12 text-lg tracking-tight text-muted-foreground md:text-xl text-balance translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:400ms] max-w-xl mx-auto">
-        REFER Protocol empowers ecosystem to create, manage, and incentivize their growth through
+        REFER Protocol empowers ecosystems to create, manage, and incentivize their growth through
         on-chain referral systems.
       </p>
       <a
