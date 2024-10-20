@@ -69,7 +69,7 @@ const config: Config = {
       title: 'REFER PROTOCOL',
       logo: {
         alt: 'Refer Protocol Docs Logo',
-        src: 'img/logo.svg',
+        src: 'img/refer-logo.png',
       },
       items: [
         {
