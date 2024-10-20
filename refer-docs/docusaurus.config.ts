@@ -64,9 +64,9 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/meta.png',
     navbar: {
-      title: 'REFER PROTOCOL DOCS',
+      title: 'REFER PROTOCOL',
       logo: {
         alt: 'Refer Protocol Docs Logo',
         src: 'img/logo.svg',
