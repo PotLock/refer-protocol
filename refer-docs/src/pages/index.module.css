@@ -1,6 +1,7 @@
 /**
  * CSS files with the .module.css suffix will be treated as CSS modules
  * and scoped locally.
+ hsl(var(--primary))
  */
 
 .heroBanner {
@@ -8,6 +9,8 @@
   text-align: center;
   position: relative;
   overflow: hidden;
+  background-color: var(--ifm-color-primary-lightest);
+  color: var(--ifm-color-primary-darkest);
 }
 
 @media screen and (max-width: 996px) {
@@ -20,4 +23,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 1rem;
 }
+
+.heroTitle {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.heroSubtitle {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
