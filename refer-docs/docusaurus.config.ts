@@ -79,6 +79,11 @@ const config: Config = {
           label: 'Tutorial',
         },
         {
+          href: 'https://referprotocol.com',
+          label: 'Website',
+          position: 'right',
+        },
+        {
           href: 'https://github.com/potlock/refer-protocol',
           label: 'GitHub',
           position: 'right',
