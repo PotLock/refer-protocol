@@ -16,14 +16,14 @@ export function Header() {
           <Link href="https://docs.referprotocol.com/" target="_blank" rel="noreferrer" className="text-sm">
             Docs
           </Link>
-          <Link href="https://docs.referprotocol.com/" target="_blank" rel="noreferrer" className="text-sm">
+          <Link href="https://docs.referprotocol.com/docs/developers/js" target="_blank" rel="noreferrer" className="text-sm">
             SDK
           </Link>
-          <Link href="https://api.referprotocol.com/" target="_blank" rel="noreferrer" className="text-sm">
+          <Link href="https://docs.referprotocol.com/docs/developers/indexer/" target="_blank" rel="noreferrer" className="text-sm">
             API
           </Link>
           <Button asChild variant="secondary" className="text-sm">
-            <Link href="https://app.referprotocol.com/" target="_blank" rel="noreferrer">Launch App</Link>
+            <Link href="https://signup.referprotocol.com/" target="_blank" rel="noreferrer">Sign Up</Link>
           </Button>
         </div>
       </div>
