@@ -20,12 +20,12 @@ export function Footer() {
               <ul className="gap-2 grid list-none">
                 <li>
                   <Link
-                    href="https://app.referprotocol.com"
+                    href="https://signup.referprotocol.com"
                     className="cursor-pointer text-muted-foreground hover:text-foreground/80 duration-200 font-[450] text-sm"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    APP
+                    WAITLIST
                   </Link>
                 </li>
                 <li>

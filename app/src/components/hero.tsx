@@ -29,11 +29,11 @@ export function Hero() {
         Build Powerful On-Chain Referrals
       </h1>
       <p className="mb-12 text-lg tracking-tight text-muted-foreground md:text-xl text-balance translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:400ms] max-w-xl mx-auto">
-        REFER Protocol empowers ecosystems to create, manage, and incentivize their growth through
+        REFER Protocol empowers ecosystems to create, manage, and incentivize growth through
         on-chain referral systems.
       </p>
       <a
-        href="https://app.referprotocol.com"
+        href="https://signup.referprotocol.com"
         target="_blank"
         rel="noopener noreferrer"
         className={cn(
@@ -46,7 +46,7 @@ export function Hero() {
           "disabled:pointer-events-none disabled:opacity-50"
         )}
       >
-        <span>Launch App</span>
+        <span>Join Waitlist</span>
         <ArrowRight
           size={20}
           className="ml-1 size-4 transition-transform duration-300 ease-in-out group-hover:translate-x-1"
