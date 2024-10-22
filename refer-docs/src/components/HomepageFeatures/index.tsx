@@ -4,14 +4,14 @@ import styles from './styles.module.css';
 
 type FeatureItem = {
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
+  image: string;
   description: JSX.Element;
 };
 
 const FeatureList: FeatureItem[] = [
   {
     title: 'On-Chain Tracking',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    image: require('@site/static/img/docs-tracking.png').default,
     description: (
       <>
         Map and authenticate referrals directly on the blockchain, ensuring transparency and
@@ -21,7 +21,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Customizable Programs',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    image: require('@site/static/img/docs-puzzle.png').default,
     description: (
       <>
         Tailor your referral system with flexible parameters to fit your project's unique
@@ -31,7 +31,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Multi-Level Rewards',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    image: require('@site/static/img/docs-mlm.png').default,
     description: (
       <>
         Incentivize not just direct referrers, but also those higher up in the dependency tree.
@@ -40,7 +40,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Slashing Mechanism',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    image: require('@site/static/img/docs-stakeslash.png').default,
     description: (
       <>
         Implement penalties to maintain community quality and discourage unwanted behavior.
@@ -49,7 +49,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Web-of-Trust Authentication',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    image: require('@site/static/img/docs-security.png').default,
     description: (
       <>
         Leverage referral networks for proof-of-personhood and access control.
@@ -58,7 +58,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Easy to Use SDKs',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    image: require('@site/static/img/docs-toolbox.png').default,
     description: (
       <>
         Build on top of our open source referral system.
@@ -67,7 +67,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'GraphQL APIs',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    image: require('@site/static/img/docs-api.png').default,
     description: (
       <>
         Easily query your social graph with our APIs designed to query referrals.
@@ -76,7 +76,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Boilerplate App',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    image: require('@site/static/img/docs-boilerplate.png').default,
     description: (
       <>
         Manage and even customize your referral flow.
@@ -85,11 +85,11 @@ const FeatureList: FeatureItem[] = [
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({title, image, description}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <img className={styles.featureSvg} role="img" src={image} alt={title} />
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
