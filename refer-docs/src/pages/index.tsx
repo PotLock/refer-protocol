@@ -4,6 +4,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
+import Head from '@docusaurus/Head';
 
 import styles from './index.module.css';
 
@@ -37,8 +38,18 @@ export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title}`}
-      description="REFER PROTOCOL is the on-chain referral infrastructure">
+      title={`${siteConfig.title} - On-Chain Referral Infrastructure`}
+      description="REFER PROTOCOL is an on-chain referral system built on EVM-compatible blockchains, designed to create and manage web-of-trust communities.">
+      <Head>
+        <meta property="og:title" content="REFER PROTOCOL - On-Chain Referral Infrastructure" />
+        <meta property="og:description" content="REFER PROTOCOL is an on-chain referral system built on EVM-compatible blockchains, designed to create and manage web-of-trust communities." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://docs.referprotocol.com" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="REFER PROTOCOL - On-Chain Referral Infrastructure" />
+        <meta name="twitter:description" content="REFER PROTOCOL is an on-chain referral system built on EVM-compatible blockchains, designed to create and manage web-of-trust communities." />
+        <meta name="keywords" content="REFER PROTOCOL, on-chain referral, web-of-trust, EVM, blockchain, referral system" />
+      </Head>
       <HomepageHeader />
       <main>
         <HomepageFeatures />
