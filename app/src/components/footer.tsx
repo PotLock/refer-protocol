@@ -18,6 +18,16 @@ export function Footer() {
             <div>
               <h2 className="mb-6 text-sm tracking-tighter font-medium uppercase">NAVIGATE</h2>
               <ul className="gap-2 grid list-none">
+              <li>
+                  <Link
+                    href="https://potlock.notion.site/REFER-PROTOCOL-123c1f4ba97e80b2b465c9c2f9fcf47f?pvs=74"
+                    className="cursor-pointer text-muted-foreground hover:text-foreground/80 duration-200 font-[450] text-sm"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Litepaper (WIP)
+                  </Link>
+                </li>
                 <li>
                   <Link
                     href="https://signup.referprotocol.com"
@@ -46,7 +56,7 @@ export function Footer() {
                 </li>
                 <li>
                   <Link
-                    href="https://app.referprotocol.com"
+                    href="https://signup.referprotocol.com"
                     className="cursor-pointer text-muted-foreground hover:text-foreground/80 duration-200 font-[450] text-sm"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -59,7 +69,17 @@ export function Footer() {
             <div>
               <h2 className="mb-6 text-sm tracking-tighter font-medium uppercase">BUILD</h2>
               <ul className="gap-2 grid list-none">
-                <li>
+         <li>
+                <Link
+                    href="https://github.com/PotLock/refer-protocol"
+                    className="cursor-pointer text-muted-foreground hover:text-foreground/80 duration-200 font-[450] text-sm"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Github
+                  </Link>
+                  </li>
+                  <li>
                   <Link
                     href="https://docs.referprotocol.com"
                     className="cursor-pointer text-muted-foreground hover:text-foreground/80 duration-200 font-[450] text-sm"
